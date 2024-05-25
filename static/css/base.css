@@ -1,0 +1,43 @@
+body{
+    margin: 0px
+}
+
+.navbar{
+
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+
+}
+
+
+.main-bar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+.brand{
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+
+.menu-item{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: larger;
+}
+
+.spacer{
+    height: 100px;
+}
